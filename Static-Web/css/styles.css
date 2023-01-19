@@ -1,0 +1,201 @@
+body {
+    margin: 0rem;
+    padding: 0rem;
+    border: 0rem;
+}
+
+hr {
+    margin: 0rem auto;
+    border-color: #8F8F8F;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 7px;
+    width: 5%;
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    color: #171717;
+}
+
+.btn {
+    color: #D9D9D9;
+}
+
+.btn:hover {
+    color: #8F8F8F;
+}
+
+p {
+    color: #8F8F8F;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+.container-fluid {
+    padding: 4rem 15% 5rem;
+}
+
+.navbar {
+    color: #171717;
+    padding-left: 15%;
+    padding-right: 15%
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 100;
+}
+
+.download-button {
+    margin: 2rem 3% 2rem 0;
+}
+
+.title-image {
+    padding-left: 10rem;
+    width: 80%;
+    transform: rotate(360deg)
+}
+
+.fas {
+    color: #EF8172;
+    margin-bottom: 2rem;
+}
+
+.fas:hover {
+    color: #DA0037;
+}
+
+.icon {
+    margin: 0.35% 0.5rem;
+    color: #8F8F8F;
+    text-decoration: none;
+}
+
+.icon:hover {
+    color: #D9D9D9;
+    text-decoration: none;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 6%;
+}
+
+.hr {
+    background-color: #171717;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    width: 5rem;
+    margin: 30px;
+}
+
+.carousel-item {
+    padding: 0rem 25%;
+}
+
+.testimonial-text {
+    color: #EF8172;
+}
+
+.testimonial-text:hover {
+    color: #DA0037;
+}
+
+.press-logo-1 {
+    width: 70%;
+    margin: 2.6rem 2%;
+}
+
+.press-logo-2 {
+    width: 70%;
+    margin: 1.25rem 2%;
+}
+
+.press-logo-3 {
+    width: 70%;
+    margin: 2.6rem 2%;
+}
+
+.press-logo-4 {
+    width: 70%;
+    margin: 2.6rem 2%;
+}
+
+#navbar-brand {
+    font-family: "Flamenco";
+    color: #DA0037;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding: 0 50% 0 4rem;
+}
+#navbar-brand:hover {
+    font-family: "Flamenco";
+    color: #D9D9D9;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+#title {
+    background-color: #171717;
+    color: #D9D9D9;
+    padding: 15rem 1% 0 5%;
+}
+
+#features {
+    background-color: #F5F5F5;
+    padding: 4rem 15%;
+}
+
+#testimonials {
+    padding: 0rem 0% 6rem;
+    text-align: center;
+    background-color: #171717;
+    color: #D9D9D9;
+}
+
+#press {
+    padding: 0rem 20% 0rem;
+    background-color: #F5F5F5;
+    text-align: center;
+}
+
+#pricing {
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 5rem 20% 5rem; 
+}
+
+#footer {
+    text-align: center;
+    background-color: #171717;
+    margin: 0;
+    padding: 2rem 5% 1px;
+    font-family: "Montserrat";
+    font-weight: 100;
+    color: #8F8F8F;
+}

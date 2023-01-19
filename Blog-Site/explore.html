@@ -1,0 +1,108 @@
+<!-- ----------- STORIES ----------- -->
+<div class="stories">
+    <div class="story">
+        <div class="profile-photo">
+            <img src="images/profile-8.jpg">
+        </div>
+        <p class="name">Your Story</p>
+    </div>
+    <div class="story">
+        <div class="profile-photo">
+            <img src="images/profile-9.jpg">
+        </div>
+        <p class="name">Lilla James</p>
+    </div>
+    <div class="story">
+        <div class="profile-photo">
+            <img src="images/profile-10.jpg">
+        </div>
+        <p class="name">Winnie Hale</p>
+    </div>
+    <div class="story">
+        <div class="profile-photo">
+            <img src="images/profile-11.jpg">
+        </div>
+        <p class="name">Daniel Bale</p>
+    </div>
+    <div class="story">
+        <div class="profile-photo">
+            <img src="images/profile-12.jpg">
+        </div>
+        <p class="name">Hana Doe</p>
+    </div>
+    <div class="story">
+        <div class="profile-photo">
+            <img src="images/profile-8.jpg">
+        </div>
+        <p class="name">Tim White</p>
+    </div>
+</div>
+<!-- ----------- END OF STORIES ----------- -->
+
+
+.middle .stories {
+    display: flex;
+    justify-content: space-between;
+    height: 12rem;
+    gap: 0.5rem;
+}
+
+.middle .stories .story {
+    padding: var(--card_padding);
+    border-radius: var(--card_border_radius);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 0.075rem;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.middle .stories .story::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5rem;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+    position: absolute;
+    bottom: 0;
+}
+
+.middle .stories .story .name {
+    z-index: 2;
+}
+
+.middle .stories .story:nth-child(1) {
+    background: url("/images/story-1.jpg")
+    no-repeat center center/cover;
+}
+.middle .stories .story:nth-child(2) {
+    background: url("/images/story-2.jpg")
+    no-repeat center center/cover;
+}
+.middle .stories .story:nth-child(3) {
+    background: url("/images/story-3.jpg")
+    no-repeat center center/cover;
+}
+.middle .stories .story:nth-child(4) {
+    background: url("/images/story-4.jpg")
+    no-repeat center center/cover;
+}
+.middle .stories .story:nth-child(5) {
+    background: url("/images/story-5.jpg")
+    no-repeat center center/cover;
+}
+.middle .stories .story:nth-child(6) {
+    background: url("/images/story-6.jpg")
+    no-repeat center center/cover;
+}
+
+.middle .story .profile-photo {
+    width: 2rem;
+    height: 2rem;
+    align-self: start;
+    border: 3px solid var(--color_primary);
+}
